@@ -60,7 +60,7 @@
 .header {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: left, bottom right;
 }
 
 /* Nav Styles */
@@ -106,11 +106,15 @@ nav li a {
 .banner-greetings {
     font-weight: 600;
     font-size: 45px;
+    margin-top: 150px;
+    margin-bottom: 0px;
 }
 
 .banner-title {
     font-size: 85px;
     font-weight: bold;
+    margin: 0px;
+    margin-bottom: 0px;
 }
 
 .banner-dp {
@@ -118,3 +122,30 @@ nav li a {
     height: 676px;
 }
 
+/* Main Styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Styles */
+.about {
+    background-color: #fff8f3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-box {
+    background-color: white;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description {
+    font-weight: 600;
+}
